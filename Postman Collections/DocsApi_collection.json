@@ -1,0 +1,851 @@
+{
+	"info": {
+		"_postman_id": "ed2c0ff6-5e96-4edf-a3f3-92453c0cce2a",
+		"name": "DocsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Anime",
+			"item": [
+				{
+					"name": "GetAnimeById",
+					"_postman_id": "057dec3e-b6d8-48fa-bef3-99e96fee35c9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/23"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeCharacters",
+					"_postman_id": "02498438-ab66-4d1f-a49a-3c05a3d810d3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/23/characters"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeStaff",
+					"_postman_id": "ecf3362a-28cb-4a0c-8677-262cf7cd7e34",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/staff"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeEpisodes",
+					"_postman_id": "cd8055d7-463b-4967-8a16-e5b7f8826202",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/episodes"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeEpisodeById",
+					"_postman_id": "9db915de-ae84-46c5-87ba-7ddbcb70114f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/episodes/1"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeNews",
+					"_postman_id": "b62ea958-9fea-4444-908d-1e032a98537c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/news"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeFullById",
+					"_postman_id": "977a1001-d72c-4615-a937-1dcd06348c3f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/full"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeForum",
+					"_postman_id": "8cc9eceb-4fd2-4610-9ba7-2291035f0044",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/forum"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeVideos",
+					"_postman_id": "b7793022-814c-4b57-baf5-e6ca4cd55c01",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/videos"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeVideosEpisodes",
+					"_postman_id": "c8e47e2f-e859-40fc-aac1-9e448f057ebe",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/videos/episodes"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimePictures",
+					"_postman_id": "3bfef361-d5a6-4df5-9189-21c5f3305b81",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/pictures"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeStatistics",
+					"_postman_id": "5c85add7-f055-4cef-8a5e-0e17f70d5aca",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/statistics"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeMoreInfo",
+					"_postman_id": "3495bd26-bc9c-4ba3-a126-4a4b452ca611",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/moreinfo"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeRecommendations",
+					"_postman_id": "1369551c-75d5-4ddd-b34d-598fc08433f2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/recommendations"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeUserUpdates",
+					"_postman_id": "afba2abb-661b-4927-bf74-185a28f0d176",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/userupdates"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeReviews",
+					"_postman_id": "0336051f-2017-4ece-a7c4-12371970a864",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/reviews"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeRelations",
+					"_postman_id": "a4bdfdd4-d9dc-4feb-86ce-e5a1238d2cb4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/relations"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeThemes",
+					"_postman_id": "b573453c-8517-43be-aa82-058ba5b298a8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/themes"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnimeExternal",
+					"_postman_id": "d40db7b7-7172-4589-98a6-909e70374451",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/anime/1/external"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "eba8eee8-ef6e-4e6a-965f-4c3f81e99308"
+		},
+		{
+			"name": "Characters",
+			"item": [
+				{
+					"name": "GetCharacterFullById",
+					"_postman_id": "83188341-fb50-4bba-b588-821c953253be",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1/full"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharacterById",
+					"_postman_id": "0aeb26d4-c662-48f0-ad2e-0c2140bab61a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharacterAnime",
+					"_postman_id": "bc962da0-3572-4c0a-8705-213c9287f974",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1/anime"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharacterManga",
+					"_postman_id": "455b4c82-7b23-4be3-9c53-41516027c8e5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1/manga"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharacterVoiceActors",
+					"_postman_id": "cad43f88-10f3-4dfa-b1ec-e20d5a2d43eb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1/voices"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharacterPictures",
+					"_postman_id": "ece6d25d-b13e-4b30-883a-b1ec7d2dc8b0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters/1/pictures"
+					},
+					"response": []
+				},
+				{
+					"name": "GetCharactersSearch",
+					"_postman_id": "5e78ebf1-654f-4319-8113-0f5aa94b4677",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/characters"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "3ce78189-f6c1-4b41-a5e7-0625a3ae1e4e"
+		},
+		{
+			"name": "Clubs",
+			"item": [
+				{
+					"name": "GetClubsById",
+					"_postman_id": "3f6577e7-6d65-49fd-b528-9b8e771264ec",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/clubs/1"
+					},
+					"response": []
+				},
+				{
+					"name": "GetClubMembers",
+					"_postman_id": "809af694-f6be-4d9d-bbd4-abfe33cfd246",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/clubs/1/members"
+					},
+					"response": []
+				},
+				{
+					"name": "GetClubStaff",
+					"_postman_id": "445123bb-cdbc-4ab5-ba04-824e7ee6c543",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/clubs/1/staff"
+					},
+					"response": []
+				},
+				{
+					"name": "GetClubRelations",
+					"_postman_id": "54d452c6-d11b-4637-97d1-486421cb3071",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/clubs/1/relations"
+					},
+					"response": []
+				},
+				{
+					"name": "GetClubsSearch",
+					"_postman_id": "ee40eba8-0d7f-4bd5-b3fc-ac59a2d2244d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/clubs"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "8621f7f3-8410-461c-a297-ad3261d82881"
+		},
+		{
+			"name": "Genres",
+			"item": [
+				{
+					"name": "GetAnimeGenres",
+					"_postman_id": "35b9c6ae-5986-40a3-98a3-1faecaa37867",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/genres/anime"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaGenres",
+					"_postman_id": "88858e77-649f-4f66-a4a3-61daaf4bbe88",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/genres/manga"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "64f5596b-2eaf-40de-9748-d47e2157c6e1"
+		},
+		{
+			"name": "Magazines",
+			"item": [
+				{
+					"name": "GetMagazines",
+					"_postman_id": "944424ea-81fd-4d6c-9ce8-6de145db77ce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/magazines"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "7c3da28d-a7a8-48b1-aad0-aea9a69cd75d"
+		},
+		{
+			"name": "Manga",
+			"item": [
+				{
+					"name": "GetMangaFullById",
+					"_postman_id": "e86fa854-d3ad-4d70-9574-c3cb084ae926",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/full"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaById",
+					"_postman_id": "e8edfd4f-dc58-47b2-8353-5cc3ed2276e6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaCharacters",
+					"_postman_id": "762d6be4-d04a-4a6b-a15f-c9b13eabacaa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/characters"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaNews",
+					"_postman_id": "670e2cab-c16e-4c47-8146-0b73107b6c1f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/news"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaTopics",
+					"_postman_id": "daf1ce8c-0a08-4122-8142-0fc3b2b46e1c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/forum"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaPictures",
+					"_postman_id": "15b254fb-5912-4229-b2a5-1e47979a543d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/pictures"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaStatistics",
+					"_postman_id": "0699d560-d5a8-4acf-b80a-05943e05e5f9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/statistics"
+					},
+					"response": []
+				},
+				{
+					"name": "GetMangaMoreInfo",
+					"_postman_id": "026a72d3-b750-4fc0-9b38-0ed82f17fc0f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": "https://api.jikan.moe/v4/manga/{{Id}}/moreinfo"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "a17210b5-2c74-45bc-96b2-62758eaa43fb"
+		}
+	],
+	"variable": [
+		{
+			"id": "ab6b3dfa-bcac-49e5-b48d-074a3b6f6c9c",
+			"key": "Id",
+			"value": "1",
+			"type": "string"
+		}
+	]
+}
